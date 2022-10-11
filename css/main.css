@@ -34,13 +34,13 @@ body {
 }
 
 .background-one {
-  background: url(/src/images/six.png);
+  background: url(../images/six.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .background-two {
-  background: url(/src/images/seven.png);
+  background: url(../images/seven.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
