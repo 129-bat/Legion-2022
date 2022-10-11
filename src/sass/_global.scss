@@ -2,7 +2,7 @@ body {
     font-family: 'Oswald', sans-serif;
 }
 
-section {
+section:not(#call) {
     padding-top: 94px;
     padding-bottom: 94px;
 }
