@@ -1,0 +1,26 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    @media screen and (max-width: 768px) {
+        justify-content: center;
+    }
+}
+
+.header__list {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    font-size: 24px;
+    @media screen and (max-width: 768px) {
+display: flex;
+flex-direction: row;
+font-size: 16px;
+    }
+}
+
+header {
+    background-color: rgb(191,175,146);
+}

@@ -1,0 +1,11 @@
+.collection-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    @media screen and (max-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+}

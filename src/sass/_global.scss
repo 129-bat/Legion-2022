@@ -1,0 +1,33 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+body {
+background-color: rgb(147, 139, 120);
+}
+// rgb(67, 66, 55)
+
+// Фонове зображення
+.background-one {
+    background: url(/src/images/six.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background-two {
+    background: url(/src/images/seven.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,10 @@
+.donat-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.donat__button {
+  padding: 40px;
+}/*# sourceMappingURL=donat.css.map */
