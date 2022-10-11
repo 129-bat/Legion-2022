@@ -9,3 +9,23 @@
         text-align: center;
     }
 }
+
+.collection__switch {
+    display: none;
+  }
+  
+  .collection__body {
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.4s;
+  }
+  
+  .collection__switch:checked~.collection__body {
+    max-height: 100%;
+  }
+
+  .collection__text2 {
+    max-width: 500px;
+    text-transform: uppercase;
+  }
+  

@@ -1,0 +1,25 @@
+.interview-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.interview__switch {
+    display: none;
+  }
+  
+  .interview__body {
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.4s;
+  }
+  
+  .interview__switch:checked~.interview__body {
+    max-height: 100%;
+  }
+
+  .interview__text2 {
+    max-width: 500px;
+    text-transform: uppercase;
+  }
+  

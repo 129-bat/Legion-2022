@@ -73,6 +73,25 @@ body {
   }
 }
 
+.collection__switch {
+  display: none;
+}
+
+.collection__body {
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.4s;
+}
+
+.collection__switch:checked ~ .collection__body {
+  max-height: 100%;
+}
+
+.collection__text2 {
+  max-width: 500px;
+  text-transform: uppercase;
+}
+
 .donat-container {
   display: flex;
   flex-direction: column;
@@ -157,9 +176,11 @@ body {
 header {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: space-between;
   padding-top: 20px;
   padding-bottom: 20px;
+  text-align: center;
+  align-items: center;
 }
 @media screen and (max-width: 768px) {
   header {
@@ -183,4 +204,50 @@ header {
 
 header {
   background-color: rgb(191, 175, 146);
+}
+
+.header-container {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.interview-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.interview__switch {
+  display: none;
+}
+
+.interview__body {
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.4s;
+}
+
+.interview__switch:checked ~ .interview__body {
+  max-height: 100%;
+}
+
+.interview__text2 {
+  max-width: 500px;
+  text-transform: uppercase;
+}
+
+.ruskii-idi-nahui-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.traning-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.traning__image {
+  height: 600px;
 }/*# sourceMappingURL=main.css.map */

@@ -1,9 +1,11 @@
 header {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
     padding-top: 20px;
     padding-bottom: 20px;
+    text-align: center;
+    align-items: center;
     @media screen and (max-width: 768px) {
         justify-content: center;
     }
@@ -23,4 +25,9 @@ font-size: 16px;
 
 header {
     background-color: rgb(191,175,146);
+}
+
+.header-container {
+    margin-left: 20px;
+    margin-right: 20px;
 }
