@@ -269,7 +269,7 @@ header {
 
 @media screen and (max-width: 768px) {
   .interview__video {
-    max-width: 450px;
+    max-width: 100%;
     max-height: 250px;
   }
 }
@@ -291,6 +291,11 @@ header {
 .ruskii-idi-nahui_video {
   max-width: 450px;
   max-height: 250px;
+}
+@media screen and (max-width: 768px) {
+  .ruskii-idi-nahui_video {
+    max-width: 100%;
+  }
 }
 
 .traning-container {
@@ -331,4 +336,9 @@ header {
 
 .trip__image {
   max-width: 450px;
+}
+@media screen and (max-width: 768px) {
+  .trip__image {
+    max-width: 100%;
+  }
 }/*# sourceMappingURL=main.css.map */
