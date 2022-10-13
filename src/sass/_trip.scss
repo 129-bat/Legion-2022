@@ -1,0 +1,20 @@
+.trip-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        @media screen and (max-width: 768px) {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+    
+}
+
+.trip__text {
+    max-width: 450px;
+}
+
+.trip__image {
+    max-width: 450px;
+}

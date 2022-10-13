@@ -23,10 +23,12 @@ section:not(#call) {
 
 h1 {
   font-size: 48px;
+  text-transform: uppercase;
 }
 
 h2 {
   font-size: 24px;
+  text-transform: uppercase;
 }
 
 body {
@@ -57,6 +59,10 @@ body {
     justify-content: center;
     text-align: center;
   }
+}
+
+.about__text {
+  max-width: 450px;
 }
 
 .collection-container {
@@ -303,4 +309,26 @@ header {
 
 .traning__image {
   height: 600px;
+}
+
+.trip-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+@media screen and (max-width: 768px) {
+  .trip-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+.trip__text {
+  max-width: 450px;
+}
+
+.trip__image {
+  max-width: 450px;
 }/*# sourceMappingURL=main.css.map */
